@@ -20,9 +20,9 @@ const router = createRouter({
             path: ':teamId',
             component: TeamMembers,
             props: true
-          } // /teams/t1
+          } 
         ]
-      }, // our-domain.com/teams => TeamsList
+      }, 
       {
         path: '/users',
         components: {
